@@ -6,6 +6,10 @@
 
 > notice：本项目的目的是学习Raft的原理，并实现一个简单的k-v存储数据库。因此并不适用于生产环境。
 
+## 踩的一些坑
+
+1. 有可能 provider 起的服务不在 127.0.1.1，这个 -> [issue](https://github.com/youngyangyang04/KVstorageBaseRaft-cpp/issues/76) 可以解决
+
 ## 分支说明
 - main：最新内容，已经实现一个简单的clerk
 - rpc：基于muduo和rpc框架相关内容
